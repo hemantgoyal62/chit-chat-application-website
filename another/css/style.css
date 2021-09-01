@@ -1,0 +1,84 @@
+.logo{
+    display:block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0),rgb(255,255,255));
+}
+::-webkit-scrollbar{
+    width:5px;
+} 
+::-webkit-scrollbar-thumb{
+    background: grey;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: lightgrey;
+}
+.container{
+    max-width: 64rem;
+    background-image: url('../bgimg.jpg');
+    margin: auto;
+    margin-bottom: 11px;
+    height: 60vh;
+    overflow-y: scroll;
+}
+.message{
+    background-color: white;
+    margin: 6px 8px;
+    border-radius: 10px;
+    padding: 2px;
+    color: black;
+    font-size: 1.5rem;
+}
+.left{
+    text-align: left;
+    float: left;
+    clear: both;
+    max-width: 32rem;
+}
+.right
+{
+    text-align: right;
+    float: right;
+    clear: both;
+    max-width: 32rem;
+}
+.center
+{
+    text-align: center;
+    clear: both;
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width:100%;
+}
+#messageInp{
+    padding-left: 1rem;
+    width: 58rem;
+    border: 1px solid white;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+}
+#send{
+    border: 1.5px solid white;
+    border-radius: 1.5rem;
+    height: 1.6rem;
+    width: 5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+input:focus,
+button:focus{
+    outline:none;
+}
+
+
